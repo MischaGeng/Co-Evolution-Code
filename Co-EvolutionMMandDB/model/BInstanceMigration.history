@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history:History xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:history="http://www.eclipse.org/emf/edapt/history/0.3">
+  <releases date="2017-02-21T17:21:10.560+0100">
+    <changes xsi:type="history:CompositeChange">
+      <changes xsi:type="history:Create" element="BInstanceMigration.ecore#/">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#/" featureName="name"
+            dataValue="KITCampus"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#/" featureName="nsURI"
+            dataValue="kit.de"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#/" featureName="nsPrefix"
+            dataValue="kit.de"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Student">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student"
+            featureName="name" dataValue="Student"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Student"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Student/name">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/name"
+            featureName="name" dataValue="name"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/name"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Student"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Student/age">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/age"
+            featureName="name" dataValue="age"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/age"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Student"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Student/LectureName">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/LectureName"
+            featureName="name" dataValue="LectureName"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/LectureName"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Professor">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor"
+            featureName="name" dataValue="Professor"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Professor"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Professor/name">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/name"
+            featureName="name" dataValue="name"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/name"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Professor"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Professor/age">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/age"
+            featureName="name" dataValue="age"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/age"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Professor"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Professor/TeleNr">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/TeleNr"
+            featureName="name" dataValue="TeleNr"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/TeleNr"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Canteen">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Canteen"
+            featureName="name" dataValue="Canteen"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Canteen"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Canteen/name">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Canteen/name"
+            featureName="name" dataValue="name"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Canteen/name"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Line">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line"
+            featureName="name" dataValue="Line"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Line"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Line/number">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/number"
+            featureName="name" dataValue="number"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/number"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Employer">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Employer"
+            featureName="name" dataValue="Employer"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Line"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Line/employer">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/employer"
+            featureName="name" dataValue="employer"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/employer"
+            featureName="lowerBound" dataValue="1" oldDataValue="0"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/employer"
+            featureName="upperBound" dataValue="-1" oldDataValue="1"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Line/employer"
+            featureName="eType" referenceValue="BInstanceMigration.ecore#//Employer"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Employer"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Employer/name">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Employer/name"
+            featureName="name" dataValue="name"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Employer/name"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Employer"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Employer/age">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Employer/age"
+            featureName="name" dataValue="age"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Employer/age"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Building">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Building"
+            featureName="name" dataValue="Building"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Building"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Building/name">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Building/name"
+            featureName="name" dataValue="name"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Building/name"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Building"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Building/address">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Building/address"
+            featureName="name" dataValue="address"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Building/address"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Dormitory">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Dormitory"
+            featureName="name" dataValue="Dormitory"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Student"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Student/liveIN">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/liveIN"
+            featureName="name" dataValue="liveIN"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Student/liveIN"
+            featureName="eType" referenceValue="BInstanceMigration.ecore#//Dormitory"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Dormitory"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Dormitory/address">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Dormitory/address"
+            featureName="name" dataValue="address"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Dormitory/address"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#/" referenceName="eClassifiers"
+          element="BInstanceMigration.ecore#//Office">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office"
+            featureName="name" dataValue="Office"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Professor"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Professor/hasOffice">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/hasOffice"
+            featureName="name" dataValue="hasOffice"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Professor/hasOffice"
+            featureName="eType" referenceValue="BInstanceMigration.ecore#//Office"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Office"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Office/number">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office/number"
+            featureName="name" dataValue="number"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office/number"
+            featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </changes>
+      <changes xsi:type="history:Create" target="BInstanceMigration.ecore#//Office"
+          referenceName="eStructuralFeatures" element="BInstanceMigration.ecore#//Office/locateAt">
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office/locateAt"
+            featureName="name" dataValue="locateAt"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office/locateAt"
+            featureName="lowerBound" dataValue="1" oldDataValue="0"/>
+        <changes xsi:type="history:Set" element="BInstanceMigration.ecore#//Office/locateAt"
+            featureName="eType" referenceValue="BInstanceMigration.ecore#//Building"/>
+      </changes>
+    </changes>
+  </releases>
+  <releases/>
+</history:History>

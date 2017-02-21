@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Co-EvolutionMMandDB
+Bundle-SymbolicName: Co-EvolutionMMandDB; singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Require-Bundle: org.eclipse.emf.ecore 
+Import-Package: org.eclipse.emf.ecore.xmi,
+ org.eclipse.emf.ecore.xmi.impl,
+ org.eclipse.emf.edapt.spi.history
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+
+
+

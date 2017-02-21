@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history:History xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:history="http://www.eclipse.org/emf/edapt/history/0.3">
+  <releases date="2017-02-21T17:28:25.032+0100">
+    <changes xsi:type="history:CompositeChange">
+      <changes xsi:type="history:Create" element="SpecialModel.ecore#/">
+        <changes xsi:type="history:Set" element="SpecialModel.ecore#/" featureName="name"
+            dataValue="Company"/>
+        <changes xsi:type="history:Set" element="SpecialModel.ecore#/" featureName="nsURI"
+            dataValue="Fzi.de"/>
+        <changes xsi:type="history:Set" element="SpecialModel.ecore#/" featureName="nsPrefix"
+            dataValue="FZI"/>
+      </changes>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#/" referenceName="eClassifiers"
+          element="SpecialModel.ecore#//Department"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department" featureName="name"
+          dataValue="Department"/>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#//Department"
+          referenceName="eStructuralFeatures" element="SpecialModel.ecore#//Department/name"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department/name"
+          featureName="name" dataValue="name"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department/name"
+          featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#/" referenceName="eClassifiers"
+          element="SpecialModel.ecore#//Employer"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Employer" featureName="name"
+          dataValue="Employer"/>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#//Employer" referenceName="eStructuralFeatures"
+          element="SpecialModel.ecore#//Employer/name"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Employer/name"
+          featureName="name" dataValue="name"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Employer/name"
+          featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#//Employer" referenceName="eStructuralFeatures"
+          element="SpecialModel.ecore#//Employer/age"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Employer/age"
+          featureName="name" dataValue="age"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Employer/age"
+          featureName="eType" referenceValue="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      <changes xsi:type="history:Create" target="SpecialModel.ecore#//Department"
+          referenceName="eStructuralFeatures" element="SpecialModel.ecore#//Department/hasEmployer"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department/hasEmployer"
+          featureName="name" dataValue="hasEmployer"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department/hasEmployer"
+          featureName="eType" referenceValue="SpecialModel.ecore#//Employer"/>
+      <changes xsi:type="history:Set" element="SpecialModel.ecore#//Department/hasEmployer"
+          featureName="containment" dataValue="true" oldDataValue="false"/>
+    </changes>
+  </releases>
+  <releases/>
+</history:History>
